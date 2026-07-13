@@ -8,7 +8,7 @@ import base64
 import io
 
 import qrcode
-from fastapi import Query
+from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response, JSONResponse
 
